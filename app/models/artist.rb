@@ -8,7 +8,7 @@ class Artist < ActiveRecord::Base
 
     #return the genre of the artist's first saved song
   end
-binding pry
+#binding pry
 
 
   def song_count
