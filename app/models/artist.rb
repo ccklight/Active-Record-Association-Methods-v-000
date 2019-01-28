@@ -7,8 +7,6 @@ class Artist < ActiveRecord::Base
     self.songs.first.genre
 
     #return the genre of the artist's first saved song
-
-        self.songs.first.genre
       end
 
 
