@@ -8,17 +8,6 @@ class Artist < ActiveRecord::Base
   end
 
 
-
-
-
-  end
-
-
-
-
-#binding pry
-
-
   def song_count
     #return the number of songs associated with the artist
   end
