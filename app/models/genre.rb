@@ -15,4 +15,5 @@ class Genre < ActiveRecord::Base
     self.artists.collect {|artist| artist.name}
   end
 
+
 end
